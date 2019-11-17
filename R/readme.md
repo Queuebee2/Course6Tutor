@@ -3,7 +3,7 @@
 - [ ] install anaconda jupyter notebook environment with R
 - [ ] do stuff
 - [ ] do ore stuff
- 
+
 
 1. Installaties
 - [x] Install R
@@ -46,9 +46,9 @@ openVignette("<packagename>") # or instead of loading bioBase entirely
 
 ### normalisatiefuncties per package  
 ##### EdgeR
-Normalisation in edgeR is concerned with relative changes [citation](1)
+Normalisation in edgeR is concerned with relative changes[^1]
 
 
 
 
-[1]: edgeRManual
+[^1]: edgeRManual
