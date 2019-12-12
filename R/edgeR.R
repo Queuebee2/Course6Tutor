@@ -10,7 +10,7 @@ fDir <-  "C:\\Users\\sanne\\OneDrive\\Documenten\\HAN 2\\Blok6\\"
 fName <- "WCFS1_cnts.txt"
 
 cnts <- read.delim(paste0(fDir,fName), comment.char="#")
-
+WCFS1_anno <- read.delim2("~/HAN 2/Blok6/WCFS1_anno.txt")
 ### used for topTags identification
 row.names(cnts) <- cnts[,"ID"]
 
@@ -104,7 +104,13 @@ DE_Genes<- fit$table[which(fit$table$PValue < 0.00005), names(fit$table) %in% c(
 ###############################################################
 ### joint de annotatie file met de DE_genes
 ###############################################################
-
+library(dplyr)
 names <- row.names(DE_Genes)
 names <- data.frame(genes = names)
 comp <- semi_join(WCFS1_anno,names, by = c("ORF" = "genes"))
+
+sub <- select(filter(comp, comp$EC != ""),c("EC"))
+comp2 <- semi_join(WCFS1_anno,sub, by = c("EC" = "EC"))
+
+write.table(sub, file = "sub.txt")
+write.csv(comp2, file = "MyData.csv",row.names=FALSE)
