@@ -108,6 +108,9 @@ library(dplyr)
 names <- row.names(DE_Genes)
 names <- data.frame(genes = names)
 comp <- semi_join(WCFS1_anno,names, by = c("ORF" = "genes"))
+
 sub <- select(filter(comp, comp$EC != ""),c("EC"))
 comp2 <- semi_join(WCFS1_anno,sub, by = c("EC" = "EC"))
+
 write.table(sub, file = "sub.txt")
+write.csv(comp2, file = "MyData.csv",row.names=FALSE)
