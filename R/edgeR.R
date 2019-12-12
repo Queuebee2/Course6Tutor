@@ -6,11 +6,10 @@ library(edgeR)
 ### read counts
 ###############################################################
 
-fDir <-  "C:\\Users\\sanne\\OneDrive\\Documenten\\HAN 2\\Blok6\\"
-fName <- "WCFS1_cnts.txt"
+cnts <- read.delim("WCFS1_cnts.txt", comment.char="#")
+WCFS1_anno <- read.delim2("WCFS1_anno.txt")
 
-cnts <- read.delim(paste0(fDir,fName), comment.char="#")
-WCFS1_anno <- read.delim2("~/HAN 2/Blok6/WCFS1_anno.txt")
+
 ### used for topTags identification
 row.names(cnts) <- cnts[,"ID"]
 
@@ -114,3 +113,4 @@ comp2 <- semi_join(WCFS1_anno,sub, by = c("EC" = "EC"))
 
 write.table(sub, file = "sub.txt")
 write.csv(comp2, file = "MyData.csv",row.names=FALSE)
+
