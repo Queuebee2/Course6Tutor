@@ -7,11 +7,6 @@ library(edgeR)
 ### read counts
 ###############################################################
 
-<<<<<<< Updated upstream
-cnts <- read.delim("WCFS1_cnts.txt", comment.char="#")
-WCFS1_anno <- read.delim2("WCFS1_anno.txt")
-
-=======
 # used datafiles
 data_filename <- "WCFS1_cnts.txt"
 annotation_filename <- "WCFS1_anno.txt"
@@ -27,7 +22,7 @@ full_data_path <- paste0(script_directory,data_directory)
 # read files
 cnts <- read.delim(paste0(full_data_path, data_filename), comment.char="#")
 WCFS1_anno <- read.delim2(paste0(full_data_path, annotation_filename))
->>>>>>> Stashed changes
+
 
 ### used for topTags identification
 row.names(cnts) <- cnts[,"ID"]
