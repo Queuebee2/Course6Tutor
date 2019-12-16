@@ -1,4 +1,5 @@
 ### HAN (c) Todt
+# coauthors SannevaSta, Queuebee2
 
 library(edgeR)
 
@@ -6,11 +7,28 @@ library(edgeR)
 ### read counts
 ###############################################################
 
-fDir <-  "C:\\Users\\sanne\\OneDrive\\Documenten\\HAN 2\\Blok6\\"
-fName <- "WCFS1_cnts.txt"
+<<<<<<< Updated upstream
+cnts <- read.delim("WCFS1_cnts.txt", comment.char="#")
+WCFS1_anno <- read.delim2("WCFS1_anno.txt")
 
-cnts <- read.delim(paste0(fDir,fName), comment.char="#")
-WCFS1_anno <- read.delim2("~/HAN 2/Blok6/WCFS1_anno.txt")
+=======
+# used datafiles
+data_filename <- "WCFS1_cnts.txt"
+annotation_filename <- "WCFS1_anno.txt"
+
+# script directory
+script_directory <-  dirname(toString(rstudioapi::getActiveDocumentContext()[2]))
+
+# data directory
+sep <- .Platform$file.sep
+data_directory <-   paste0(sep, "data", sep)
+full_data_path <- paste0(script_directory,data_directory)
+
+# read files
+cnts <- read.delim(paste0(full_data_path, data_filename), comment.char="#")
+WCFS1_anno <- read.delim2(paste0(full_data_path, annotation_filename))
+>>>>>>> Stashed changes
+
 ### used for topTags identification
 row.names(cnts) <- cnts[,"ID"]
 
@@ -99,7 +117,8 @@ summary(decideTests(fit))
 ### maakt subset van differentialy expressed genes
 ###############################################################
 
-DE_Genes<- fit$table[which(fit$table$PValue < 0.00005), names(fit$table) %in% c("logFC","LogCPM","LR","PValue")]
+DE_Genes<- fit$table[which(fit$table$PValue < 0.00005), 
+           names(fit$table) %in% c("logFC","LogCPM","LR","PValue")]
 
 ###############################################################
 ### joint de annotatie file met de DE_genes
@@ -114,3 +133,4 @@ comp2 <- semi_join(WCFS1_anno,sub, by = c("EC" = "EC"))
 
 write.table(sub, file = "sub.txt")
 write.csv(comp2, file = "MyData.csv",row.names=FALSE)
+
