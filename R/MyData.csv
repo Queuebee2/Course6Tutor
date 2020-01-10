@@ -1,0 +1,133 @@
+"ORF","start","stop","orientation","name","function.","class","subclass","EC","LocateP.Subcellular.Localization.Prediction","X","X.1","X.2","X.3","logFC"
+"lp_0113",99433,100221,"+","thiM","hydroxyethylthiazole kinase","Biosynthesis of cofactors, prosthetic groups, and carriers","Thiamine","2.7.1.50","@Intracellular",NA,NA,NA,"",-2.70600863351217
+"lp_0114",100250,101071,"+","thiD","phosphomethylpyrimidine kinase & hydroxymethylpyrimidine kinase","Biosynthesis of cofactors, prosthetic groups, and carriers","Thiamine"," 2.7.4.7 & 2.7.1.49","@Intracellular",NA,NA,NA,"",-2.44722564062492
+"lp_0115",101064,101714,"+","thiE","thiamine-phosphate pyrophosphorylase","Biosynthesis of cofactors, prosthetic groups, and carriers","Thiamine","2.5.1.3","@Intracellular",NA,NA,NA,"",-2.39851210602286
+"lp_0193",175091,176761,"+","lp_0193","exo alfa-1,4-glucosidase or trehalase ","Central intermediary metabolism","Biosynthesis and degradation of polysaccharides","3.2.1.20 or 3.2.1.28","@Intracellular",NA,NA,NA,"",-3.63035315760661
+"lp_0210",193763,194947,"+","ack1","acetate kinase","Energy metabolism","Fermentation","2.7.2.1","@Intracellular",NA,NA,NA,"",3.40178271137353
+"lp_0242",217782,218243,"-","ndk","nucleoside-diphosphate kinase","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","2.7.4.6","@Intracellular",NA,NA,NA,"",-4.20024605499059
+"lp_0263",236050,237690,"+","treA","trehalose-6-phosphate hydrolase ","Central intermediary metabolism","Biosynthesis and degradation of polysaccharides","3.2.1.93","@Intracellular",NA,NA,NA,"",4.96715527029034
+"lp_0264",237710,239704,"+","pts4ABC","PTS system, trehalose-specific IIBC component","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",4.46842752031702
+"lp_0265",239927,241894,"+","pts5ABC","PTS system, trehalose-specific IIBC component","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",3.1684508943017
+"lp_0286",259439,260761,"+","pts6C","cellobiose PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-3.67334944631792
+"lp_0310",286486,287679,"+","ack2","acetate kinase","Energy metabolism","Fermentation","2.7.2.1","@Intracellular",NA,NA,NA,"",-4.40344361759328
+"lp_0329",300200,301564,"-","acdH","acetaldehyde dehydrogenase","Energy metabolism","Fermentation","1.2.1.10","@Intracellular",NA,NA,NA,"",3.51435029865232
+"lp_0370",338885,340399,"+","glpK","glycerol kinase","Fatty acid and phospholipid metabolism","Glycerolipid metabolism","2.7.1.30","@Intracellular",NA,NA,NA,"",-5.44352911844385
+"lp_0371",340417,342243,"+","glpD","glycerol-3-phosphate dehydrogenase, FAD-dependent","Fatty acid and phospholipid metabolism","Glycerolipid metabolism","1.1.99.5","@Intracellular",NA,NA,NA,"",-5.64099827807343
+"lp_0393",357387,358001,"-","thgA1","galactoside O-acetyltransferase","Central intermediary metabolism","General","2.3.1.18","@Intracellular",NA,NA,NA,"",-3.17728860936865
+"lp_0416",371705,373030,"+","plnB","histidine protein kinase PlnB; sensor protein","Regulatory functions","Two-component regulators","2.7.3.-","@Multi-transmembrane",NA,NA,NA,"",4.57985586068361
+"lp_0436",390029,391387,"+","pts7C","cellobiose PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-2.15285822727065
+"lp_0497",444089,444733,"+","deoC","deoxyribose-phosphate aldolase","Energy metabolism","Pentose phosphate pathway","4.1.2.4","@Intracellular",NA,NA,NA,"",-2.58736578460615
+"lp_0499",446166,447179,"+","deoM","deoxyribose mutarotase","Energy metabolism","Pentose phosphate pathway","5.3.1.-","@Intracellular",NA,NA,NA,"",-3.13025805342423
+"lp_0500",447195,448115,"+","deoK","deoxyribokinase","Energy metabolism","Pentose phosphate pathway","2.7.1.15","@Intracellular",NA,NA,NA,"",-3.43385495807048
+"lp_0501",448814,450082,"+","serS1","serine--tRNA ligase","Protein synthesis","tRNA aminoacylation","6.1.1.11","@Intracellular",NA,NA,NA,"",-4.82882725005337
+"lp_0575",533143,534114,"+","pts9AB","mannose PTS, EIIAB","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",4.71551598168864
+"lp_0576",534155,534958,"+","pts9C","mannose PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane(Lipid modified N-termini)",NA,NA,NA,"",4.83544170567629
+"lp_0577",534979,535893,"+","pts9D","mannose PTS, EIID","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",4.74912710184465
+"lp_0849",787619,789355,"+","pox1","pyruvate oxidase","Energy metabolism","Aerobic","1.2.3.3","@Intracellular",NA,NA,NA,"",-4.26824377573878
+"lp_0852",790676,792436,"+","pox2","pyruvate oxidase","Energy metabolism","Aerobic","1.2.3.3","@Intracellular",NA,NA,NA,"",-2.19518333499816
+"lp_0884",815039,815530,"+","pts11A","PTS, EIIA (putative)","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-2.00026405139461
+"lp_0905",833821,835680,"+","pts12BCA","beta-glucosides PTS, EIIBCA","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-2.0858815390663
+"lp_0912",842494,843420,"+","lp_0912","enoyl-[acyl-carrier protein] reductase (NADH)(putative)","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","1.3.1.9","@Intracellular",NA,NA,NA,"",-2.06918947931932
+"lp_0952",883915,885801,"+","lp_0952","fumarate reductase, flavoprotein subunit precursor","Energy metabolism","Electron transport","1.3.99.1","@Intracellular",NA,NA,NA,"",-2.36131914480332
+"lp_1200",1093199,1094143,"+","cps2D","UDP N-acetyl glucosamine 4-epimerase, NAD dependent","Purines, pyrimidines, nucleosides and nucleotides","Sugar-nucleotide biosynthesis and interconversions","5.3.1.7","@Intracellular",NA,NA,NA,"",-2.51071750653949
+"lp_1226",1113822,1114898,"+","cps3I","O-acetyltransferase","Cell envelope","Surface polysaccharides, lipopolysaccharides and antigens","2.3.1.-","@Multi-transmembrane",NA,NA,NA,"",2.11844582641011
+"lp_1227",1115037,1115810,"+","cps3J","glycosyltransferase","Cell envelope","Surface polysaccharides, lipopolysaccharides and antigens","2.4.1.-","@Intracellular",NA,NA,NA,"",2.65465644287624
+"lp_1497",1368132,1371821,"+","narG","nitrate reductase, alpha chain","Energy metabolism","Anaerobic","1.7.99.4","@Intracellular",NA,NA,NA,"",-6.64746716525672
+"lp_1498",1371814,1373370,"+","narH","nitrate reductase, beta chain","Energy metabolism","Anaerobic","1.7.99.4","@Intracellular",NA,NA,NA,"",-6.24052839506494
+"lp_1499",1373366,1373935,"+","narJ","nitrate reductase, delta chain","Energy metabolism","Anaerobic","1.7.99.4","@Intracellular",NA,NA,NA,"",-6.42667726625523
+"lp_1500",1373935,1374621,"+","narI","nitrate reductase, gamma chain","Energy metabolism","Anaerobic","1.7.99.4","@Multi-transmembrane",NA,NA,NA,"",-5.14591824547425
+"lp_1670",1522735,1523175,"+","fabZ1","(3R)-hydroxyacyl-[acyl carrier protein] dehydratase","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","4.2.1.60","@Intracellular",NA,NA,NA,"",-2.56124349836105
+"lp_1671",1523253,1524236,"+","fabH2","3-oxoacyl-[acyl-carrier protein] synthase III","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","2.3.1.41","@Intracellular",NA,NA,NA,"",-2.83949224058452
+"lp_1673",1524548,1525477,"+","fabD","[acyl-carrier protein] S-malonyltransferase","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","2.3.1.39","@Intracellular",NA,NA,NA,"",-3.10036144126529
+"lp_1674",1525467,1526192,"+","fabG1","3-oxoacyl-[acyl-carrier protein] reductase","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","1.1.1.100","@Intracellular",NA,NA,NA,"",-3.178870649222
+"lp_1675",1526214,1527443,"+","fabF","3-oxoacyl-[acyl-carrier protein] synthase II","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","2.3.1.41","@Intracellular",NA,NA,NA,"",-3.20738868871538
+"lp_1676",1527443,1527901,"+","accB2","acetyl-CoA carboxylase, biotin carboxyl carrier protein","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","6.4.1.2","@Intracellular",NA,NA,NA,"",-3.24835125761918
+"lp_1677",1527904,1528314,"+","fabZ2","(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","4.2.1.-","@Intracellular",NA,NA,NA,"",-3.31059698353719
+"lp_1678",1528332,1529717,"+","accC2","acetyl-CoA carboxylase, biotin carboxylase subunit","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","6.4.1.2","@Intracellular",NA,NA,NA,"",-3.28089362138994
+"lp_1679",1529686,1530528,"+","accD2","acetyl-CoA carboxylase, carboxyl transferase subunit beta","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","6.4.1.2","@Intracellular",NA,NA,NA,"",-3.20374099192325
+"lp_1680",1530524,1531291,"+","accA2","acetyl-CoA carboxylase, carboxyl transferase subunit alpha","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","6.4.1.2","@Intracellular",NA,NA,NA,"",-3.28202332505957
+"lp_1681",1531315,1532070,"+","fabI","enoyl-[acyl-carrier protein] reductase (NADH)","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","1.3.1.9","@Intracellular",NA,NA,NA,"",-3.30264538736526
+"lp_1682",1532073,1532621,"+","lp_1682","phosphopantetheinyltransferase","Fatty acid and phospholipid metabolism","Fatty acid biosynthesis","2.7.8.-","@Intracellular",NA,NA,NA,"",-3.22133558935329
+"lp_2096",1888848,1889762,"+","fruK","1-phosphofructokinase","Energy metabolism","Sugars","2.7.1.56","@Intracellular",NA,NA,NA,"",-2.43304965994633
+"lp_2100",1894858,1895823,"-","cps4I","glycosyltransferase","Cell envelope","Surface polysaccharides, lipopolysaccharides and antigens","2.4.1.-","@Intracellular",NA,NA,NA,"",5.33268078007122
+"lp_2102",1897082,1898113,"-","cps4G","glycosyltransferase","Cell envelope","Surface polysaccharides, lipopolysaccharides and antigens","2.4.1.-","@Intracellular",NA,NA,NA,"",5.10085086746798
+"lp_2103",1898126,1899214,"-","cps4F","glycosyltransferase","Cell envelope","Surface polysaccharides, lipopolysaccharides and antigens","2.4.1.-","@Intracellular",NA,NA,NA,"",5.00540194011091
+"lp_2105",1899869,1900807,"-","cps4D","UDP N-acetyl glucosamine 4-epimerase, NAD dependent","Purines, pyrimidines, nucleosides and nucleotides","Sugar-nucleotide biosynthesis and interconversions","5.3.1.7","@Intracellular",NA,NA,NA,"",4.4838732164609
+"lp_2151",1943210,1944619,"-","pdhD","pyruvate dehydrogenase complex, E3 component; dihydrolipoamide dehydrogenase","Energy metabolism","Glycolysis","1.8.1.4","@Intracellular",NA,NA,NA,"",-5.94438879329371
+"lp_2152",1944630,1945922,"-","pdhC","pyruvate dehydrogenase complex, E2 component; dihydrolipoamide S-acetyltransferase","Energy metabolism","Glycolysis","2.3.1.12","@Intracellular",NA,NA,NA,"",-6.00444799402731
+"lp_2153",1945983,1946957,"-","pdhB","pyruvate dehydrogenase complex, E1 component, beta subunit","Energy metabolism","Glycolysis","1.2.4.1","@Intracellular",NA,NA,NA,"",-5.88582947033641
+"lp_2154",1946962,1948071,"-","pdhA","pyruvate dehydrogenase complex, E1 component, alpha subunit","Energy metabolism","Glycolysis","1.2.4.1","@Intracellular",NA,NA,NA,"",-5.86312161375376
+"lp_2384",2151879,2152841,"-","pmi","mannose-6-phosphate isomerase","Energy metabolism","Sugars","5.3.1.8","@Intracellular",NA,NA,NA,"",-2.02449120752396
+"lp_2531",2256929,2258914,"-","pts18CBA","N-acetylglucosamine and glucose PTS, EIICBA","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",4.21064789480571
+"lp_2544",2269594,2270946,"+","npr2","NADH peroxidase","Cellular processes","Detoxification","1.11.1.1","@Intracellular",NA,NA,NA,"",-2.66266961164992
+"lp_2600",2320034,2320744,"+","tal1","transaldolase","Energy metabolism","Pentose phosphate pathway","2.2.1.2","@Intracellular",NA,NA,NA,"",-2.23151863755776
+"lp_2659",2362939,2365302,"-","xpkA","xylulose-5-P phosphoketolase & fructose-6-P phosphoketolase","Energy metabolism","Pentose phosphate pathway","4.1.2.9 & 4.2.1.22","@Intracellular",NA,NA,NA,"",-4.19928761602718
+"lp_2684",2383592,2384761,"+","araT2","aromatic amino acid specific aminotransferase","Energy metabolism","Amino acids and amines","2.6.1.57","@Intracellular",NA,NA,NA,"",-2.17752215469622
+"lp_2697",2398348,2398983,"-","pyrE","orotate phosphoribosyltransferase","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","2.4.2.10","@Intracellular",NA,NA,NA,"",-4.64899821765892
+"lp_2698",2398988,2399698,"-","pyrF","orotidine-5'-phosphate decarboxylase","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","4.1.1.23","@Intracellular",NA,NA,NA,"",-4.9533619355245
+"lp_2699",2399698,2400612,"-","pyrD","dihydroorotate oxidase","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","1.3.3.1","@Intracellular",NA,NA,NA,"",-5.29463299015495
+"lp_2700",2400658,2403831,"-","pyrAB","carbamoyl-phosphate synthase, pyrimidine-specific, large chain","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","6.3.5.5","@Intracellular",NA,NA,NA,"",-5.9423352547696
+"lp_2701",2403827,2404918,"-","pyrAA","carbamoyl-phosphate synthase, pyrimidine-specific, small chain","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","6.3.5.5","@Intracellular",NA,NA,NA,"",-6.85404531844006
+"lp_2702",2404918,2406207,"-","pyrC","dihydroorotase","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","3.5.2.3","@Intracellular",NA,NA,NA,"",-7.04755040090804
+"lp_2703",2406214,2407146,"-","pyrB","aspartate carbamoyltransferase","Purines, pyrimidines, nucleosides and nucleotides","Pyrimidine ribonucleotide biosynthesis","2.1.3.2","@Intracellular",NA,NA,NA,"",-7.75607867222292
+"lp_2757",2449510,2451231,"-","lp_2757","maltogenic alpha-amylase","Central intermediary metabolism","Biosynthesis and degradation of polysaccharides","3.2.1.133","@Intracellular",NA,NA,NA,"",-4.04106147926715
+"lp_2777",2469039,2470478,"-","pbg4","6-phospho-beta-glucosidase","Energy metabolism","Sugars","3.2.1.86","@Intracellular",NA,NA,NA,"",-4.08667075621416
+"lp_2778",2470499,2471935,"-","pbg5","6-phospho-beta-glucosidase","Energy metabolism","Sugars","3.2.1.86","@Intracellular",NA,NA,NA,"",-4.18183316354084
+"lp_2780",2472132,2472476,"-","pts20A","cellobiose PTS, EIIA","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-3.71346476014996
+"lp_2781",2472580,2472894,"-","pts20B","cellobiose PTS, EIIB","Transport and binding proteins","PTS systems","2.7.1.69","@Secretory(released) (with CS)",NA,NA,NA,"",-3.41442361856688
+"lp_2788",2477881,2478897,"+","hdhD2","D-2-hydroxyacid dehydrogenase","Energy metabolism","Amino acids and amines","1.1.99.-","@Intracellular",NA,NA,NA,"",-2.20273525676284
+"lp_2830",2523820,2525217,"-","ansB","aspartate ammonia-lyase","Amino acid biosynthesis","Glutamate family","4.3.1.1","@Intracellular",NA,NA,NA,"",2.35053904849608
+"lp_2969",2642875,2644860,"+","pts22CBA","N-acetylglucosamine PTS, EIICBA","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-3.42016671782481
+"lp_3009",2676730,2677053,"-","pts23B","cellobiose PTS, EIIB","Transport and binding proteins","PTS systems","2.7.1.69","@N-terminally anchored (with CS)",NA,NA,NA,"",-3.94141496763966
+"lp_3010",2677080,2678549,"-","pts23C","cellobiose PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-5.08575000429705
+"lp_3011",2678552,2679931,"-","pbg6","6-phospho-beta-glucosidase","Energy metabolism","Sugars","3.2.1.86","@Intracellular",NA,NA,NA,"",-3.24947130770451
+"lp_3054",2715143,2716261,"-","lp_3054","aryl-alcohol dehydrogenase","Energy metabolism","Phenolic acids","1.1.1.90","@Intracellular",NA,NA,NA,"",-4.33287065179473
+"lp_3055",2716627,2718549,"-","copA","copper transporting ATPase","Transport and binding proteins","Cations","3.6.3.4","@Multi-transmembrane",NA,NA,NA,"",-2.18099858982703
+"lp_3092",2751334,2752743,"+","gabD","succinate-semialdehyde dehydrogenase (NAD(P)+)","Energy metabolism","Amino acids and amines","1.2.1.16","@Intracellular",NA,NA,NA,"",-2.13217484983521
+"lp_3135",2803918,2805906,"-","tkt3","transketolase","Energy metabolism","Pentose phosphate pathway","2.2.1.1","@Intracellular",NA,NA,NA,"",-5.0154000522006
+"lp_3272",2912856,2913638,"+","ptp2","protein-tyrosine phosphatase","Protein fate","Protein modification and repair","3.1.3.48","@Intracellular",NA,NA,NA,"",-3.22691034006536
+"lp_3313",2949059,2951314,"+","pflB","formate C-acetyltransferase","Energy metabolism","Fermentation","2.3.1.54","@Intracellular",NA,NA,NA,"",-3.69544445630001
+"lp_3314",2951354,2952172,"+","pflA","formate C-acetyltransferase activating enzyme","Energy metabolism","Fermentation","1.97.1.4","@Intracellular",NA,NA,NA,"",-3.6862337588936
+"lp_3318",2953772,2954689,"+","lp_3318","aldo/keto reductase family protein","Hypothetical proteins","Conserved: putative function","1.-.-.-","@Intracellular",NA,NA,NA,"",-3.43076703844816
+"lp_3418",3033342,3035000,"+","pck","phosphoenolpyruvate carboxykinase (ATP)","Energy metabolism","TCA cycle","4.1.1.49","@Intracellular",NA,NA,NA,"",-3.496525159785
+"lp_3482",3090331,3091491,"-","galK","galactokinase","Energy metabolism","Sugars","2.7.1.6","@Intracellular",NA,NA,NA,"",-2.09112294560103
+"lp_3483",3091775,3093652,"+","lacL","beta-galactosidase, large subunit","Energy metabolism","Sugars","3.2.1.23","@Intracellular",NA,NA,NA,"",-4.12474223124275
+"lp_3484",3093639,3094595,"+","lacM","beta-galactosidase, small subunit","Energy metabolism","Sugars","3.2.1.23","@Intracellular",NA,NA,NA,"",-3.6198968679828
+"lp_3487",3099300,3100331,"-","galM3","aldose 1-epimerase","Energy metabolism","Sugars","5.1.3.3","@Intracellular",NA,NA,NA,"",-3.14344178961825
+"lp_3489",3101779,3102798,"-","lp_3489","aldo/keto reductase family protein","Hypothetical proteins","Conserved: putative function","1.-.-.-","@Intracellular",NA,NA,NA,"",-2.41411201942386
+"lp_3519",3134646,3135086,"-","pts31A","PTS, EIIA, fructose-specific (putative)","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-2.28280571389146
+"lp_3525",3140484,3141923,"-","pbg9","6-phospho-beta-glucosidase","Energy metabolism","Sugars","3.2.1.86","@Intracellular",NA,NA,NA,"",-2.74752663413461
+"lp_3526",3142015,3143475,"-","pbg10","6-phospho-beta-glucosidase","Energy metabolism","Sugars","3.2.1.86","@Intracellular",NA,NA,NA,"",-2.8734022436745
+"lp_3527",3143498,3145492,"-","pts33BCA","beta-glucosides PTS, EIIBCA","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-2.33374046956491
+"lp_3536",3154516,3155487,"-","bsh1","choloylglycine hydrolase","Fatty acid and phospholipid metabolism","Bile acid biosynthesis and degradation","3.5.1.24","@Intracellular",NA,NA,NA,"",-3.78745541199205
+"lp_3538",3156586,3158580,"-","tkt4","transketolase","Energy metabolism","Pentose phosphate pathway","2.2.1.1","@Intracellular",NA,NA,NA,"",-11.8799202246409
+"lp_3539",3158613,3159263,"-","tal2","transaldolase","Energy metabolism","Pentose phosphate pathway","2.2.1.2","@Intracellular",NA,NA,NA,"",-12.2775444831116
+"lp_3544",3163856,3164476,"-","gph3","phosphohydrolase, possibly 2-phosphoglycolate phosphohydrolase or inorganic pyrophosphatase","Central intermediary metabolism","General","3.1.3.18 or 3.6.1.1","@Intracellular",NA,NA,NA,"",-2.99766347958507
+"lp_3545",3164585,3165640,"-","lp_3545","D-arabitol-phosphate dehydrogenase (putative)","Energy metabolism","Sugars","1.1.1.-","@Intracellular",NA,NA,NA,"",-4.89415777833667
+"lp_3546",3165724,3166992,"-","pts35C","galacitol PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-6.02806078129537
+"lp_3547",3167030,3167323,"-","pts35B","galactitol PTS, EIIB","Transport and binding proteins","PTS systems","2.7.1.69","@N-terminally anchored (No CS)",NA,NA,NA,"",-7.14240349212091
+"lp_3548",3167361,3167828,"-","pts35A","galacitol PTS, EIIA","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-4.30473285816939
+"lp_3551",3169067,3171475,"+","xfp","xylulose-5-phosphate phosphoketolase ","Energy metabolism","Pentose phosphate pathway","4.1.2.9","@Intracellular",NA,NA,NA,"",-4.07091352805537
+"lp_3555",3174158,3174883,"-","araD","L-ribulose 5-phosphate 4-epimerase","Energy metabolism","Sugars","5.1.3.4","@Intracellular",NA,NA,NA,"",-2.94835367992507
+"lp_3556",3174904,3176502,"-","araB","L-ribulokinase","Energy metabolism","Sugars","2.7.1.16","@Intracellular",NA,NA,NA,"",-2.6003555685875
+"lp_3566",3185518,3186246,"-","lp_3566","N-acetylglucosamine 2-epimerase (putative)","Central intermediary metabolism","Amino sugars","5.1.3.8","@Intracellular",NA,NA,NA,"",-5.41685111601515
+"lp_3568",3187588,3188463,"+","nanA","N-acetylneuraminate lyase","Central intermediary metabolism","Amino sugars","4.1.3.3","@Intracellular",NA,NA,NA,"",-3.4885186714286
+"lp_3571",3189354,3190037,"+","nanE","N-acetylmannosamine-6-phosphate 2-epimerase","Central intermediary metabolism","Amino sugars","5.1.3.9","@Intracellular",NA,NA,NA,"",-2.9559102691453
+"lp_3589",3206331,3208139,"-","pox5","pyruvate oxidase","Energy metabolism","Aerobic","1.2.3.3","@Intracellular",NA,NA,NA,"",-2.83653777257758
+"lp_3599",3217253,3217711,"+","pts36A","galactitol PTS, EIIA","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-4.44267320783574
+"lp_3600",3217735,3218043,"+","pts36B","galactitol PTS, EIIB","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-5.48846083320506
+"lp_3601",3218083,3219630,"+","pts36C","galactitol PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-4.35628453019016
+"lp_3603",3219914,3220633,"+","lp_3603","sugar-phosphate aldolase","Energy metabolism","Sugars","4.1.2.-","@Intracellular",NA,NA,NA,"",-2.02033726029855
+"lp_3605",3222258,3223292,"-","lp_3605","myo-inositol 2-dehydrogenase-like (promiscuous)","Energy metabolism","Sugars","1.1.1.-","@Intracellular",NA,NA,NA,"",-3.14607101372177
+"lp_3606",3223331,3224380,"-","iolG","myo-inositol 2-dehydrogenase (promiscuous)","Energy metabolism","Sugars","1.1.1.18","@Intracellular",NA,NA,NA,"",-3.28288100852699
+"lp_3607",3224455,3225354,"-","iolE","2-keto-myo-inositol dehydratase (promiscuous)","Energy metabolism","Sugars","4.2.1.44","@Intracellular",NA,NA,NA,"",-3.65215959148914
+"lp_3608",3225380,3226405,"-","lp_3608","myo-inositol 2-dehydrogenase-like (promiscuous)","Energy metabolism","Sugars","1.1.1.-","@Intracellular",NA,NA,NA,"",-2.66692183520425
+"lp_3612",3228249,3229271,"+","lp_3612","myo-inositol 2-dehydrogenase-like (promiscuous)","Energy metabolism","Sugars","1.1.1.-","@Intracellular",NA,NA,NA,"",-3.72488336571043
+"lp_3614",3229781,3230710,"+","lp_3614","oxidoreductase","Hypothetical proteins","Conserved: putative function","1.-.-.-","@Intracellular",NA,NA,NA,"",-2.95868864725876
+"lp_3627",3241121,3242794,"-","lp_3627","exo-alfa-1,4-glucosidase","Central intermediary metabolism","Biosynthesis and degradation of polysaccharides","3.2.1.2 & 3.2.1.10 & 3.2.1.20","@Intracellular",NA,NA,NA,"",-3.03668671299986
+"lp_3652",3273503,3273877,"-","pts38A","sorbitol PTS, EIIA","Transport and binding proteins","PTS systems","2.7.1.69","@Intracellular",NA,NA,NA,"",-3.27584418917936
+"lp_3653",3273908,3274924,"-","pts38BC","sorbitol PTS, EIIBC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-4.309656898643
+"lp_3654",3274951,3275499,"-","pts38C","sorbitol PTS, EIIC","Transport and binding proteins","PTS systems","2.7.1.69","@Multi-transmembrane",NA,NA,NA,"",-3.71205563753857
+"lp_3657",3277912,3278712,"-","srlD2","sorbitol-6-phosphate 2-dehydrogenase","Energy metabolism","Sugars","1.1.1.140","@Intracellular",NA,NA,NA,"",-2.92566754964229
+"lp_3659",3279934,3280326,"-","rbsD","D-ribose mutarotase","Energy metabolism","Sugars","5.3.1.-","@Intracellular",NA,NA,NA,"",-8.11568941445679
+"lp_3660",3280332,3281249,"-","rbsK1","ribokinase","Energy metabolism","Sugars","2.7.1.15","@Intracellular",NA,NA,NA,"",-8.37260674226037
