@@ -9,13 +9,15 @@ output:
     latex_engine: xelatex
 ---
 
+# Title Page
+\newpage
+\tableofcontents{Table of Contents}
 ```{r setup , echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(edgeR)
 library(ggplot2)
 ```
 
-# Title Page
 
 \newpage
 # Abstract
