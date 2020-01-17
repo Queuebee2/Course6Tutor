@@ -90,7 +90,7 @@ y <- calcNormFactors(y, method="TMM" )
 ### Check statistics
 To test these results the method summary is used to show the statistics of the counts in the dataset.
 
-
+# TODO -> Move to results
 ```{r }
 print("Count statistics")
 print(summary(y$counts))
@@ -217,12 +217,12 @@ library(ggplot2)
 # plot with the foldchanges of every gene colored by subclass
 
 plot_base <- ggplot(data = comp2, mapping = aes(x = name, y = logFC, width = 0.85,fill = class))
-plot_base <- plot_base + theme(axis.text.x = element_text(angle = 90, size = 8))
+plot_base <- plot_base + theme(axis.text.x = element_blank())
 
 plot_base <- plot_base + geom_bar(stat="identity", position="identity")
 
 plot_base1 <- ggplot(data = comp2, mapping = aes(x = name, y = logFC, width = 0.85,fill = subclass))
-plot_base1 <- plot_base1 + theme(axis.text.x = element_text(angle = 90, size = 8))
+plot_base1 <- plot_base1 + theme(axis.text.x = element_blank())
 plot_base1 <- plot_base1 + geom_bar(stat="identity", position="identity")
 
 plot_base
