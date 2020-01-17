@@ -159,7 +159,7 @@ DE_Genes<- DE_Genes[which(DE_Genes$logFC < -2 | DE_Genes$logFC > 2), names(DE_Ge
 This selection was then merged with an annotation file containing the ORF, start, stop , orientation, name, function, class, subclass, EC number and subcellular location.
 
 
-```{r}
+```{r echo=FALSE}
 library(dplyr)
 names1 <- row.names(DE_Genes)
 names2 <- DE_Genes[1]
@@ -209,6 +209,26 @@ plotMD(fit)
 ```
  In this Mean Difference (MD) plot the log fold changes are plotted against the average log CPM. Here you can see that there is a difference in the amount of up- or downregulated genes and the variation in the log fold change. There are more downregulated genes and between these genes the variation in log fold change appears bigger. 
  
+ 
+```{r}
+library(ggplot2)
+# plot with the foldchanges of every gene colored by subclass
+
+plot_base <- ggplot(data = comp2, mapping = aes(x = name, y = logFC, width = 0.85,fill = class))
+plot_base <- plot_base + theme(axis.text.x = element_text(angle = 90, size = 8))
+
+plot_base <- plot_base + geom_bar(stat="identity", position="identity")
+
+plot_base1 <- ggplot(data = comp2, mapping = aes(x = name, y = logFC, width = 0.85,fill = subclass))
+plot_base1 <- plot_base1 + theme(axis.text.x = element_text(angle = 90, size = 8))
+plot_base1 <- plot_base1 + geom_bar(stat="identity", position="identity")
+
+plot_base
+plot_base1
+```
+ 
+
+
 ```{r}
 summary(decideTests(fit))
 ```
